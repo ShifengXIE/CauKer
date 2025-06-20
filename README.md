@@ -1,4 +1,4 @@
-# 🧠 CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data Only
+# CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data Only
 
 ![ICML 2025 Spotlight](https://img.shields.io/badge/ICML%202025-Spotlight-blue)
 
@@ -7,7 +7,7 @@ CauKer is a new synthetic data generation framework for pretraining classificati
 🚀 **Spotlight Presentation @ ICML 2025 FMSD Workshop**  
 📅 July 18, 2025 | 📍 Vancouver
 
-## 🔍 Overview
+## Overview
 
 Recent work in TSFMs has focused on training with large-scale real-world corpora, which are expensive and hard to collect. **CauKer** tackles this challenge by generating synthetic time series data that are both:
 
@@ -23,7 +23,7 @@ With CauKer, we show that state-of-the-art classification models like **Mantis**
 
 ---
 
-## 🔧 Quick Start
+## Quick Start
 
 You can try CauKer directly in your browser via Google Colab:
 
@@ -43,13 +43,13 @@ python CauKer.py -N 200000 -L 512 -F 4 -P 6 -M 18 -O CauKer200K.arrow
 
 ---
 
-## 📈 Example Use Case
+## Example Use Case
 
 Once generated, the synthetic `.arrow` dataset can be used to pretrain your own TSFM (e.g., Mantis or MOMENT) and then evaluated in a zero-shot setting on UCR or UEA benchmarks.
 
 ---
 
-## 📣 Citation
+## Citation
 
 ```bibtex
 @inproceedings{cauker2025,
@@ -64,8 +64,8 @@ Once generated, the synthetic `.arrow` dataset can be used to pretrain your own 
 
 ## ❤️ Acknowledgements
 
-This work is the result of a great collaboration—thanks to all my amazing co-authors and mentors for their guidance and support throughout this project.
+This work is the result of a great collaboration—thanks to all my amazing co-authors: Vasilii Feofanov, Marius Alonso, Ambroise Odonnat, Jianfeng Zhang and Ievgen Redko, for their guidance and support throughout this project.
 
 If you have questions, collaboration ideas, or just want to discuss TSFMs, feel free to reach out:
 
-📬 **shifeng.xie@telecom-paris.fr**
+📬 **shifeng.xie@telecom-paris.fr** **"ievgen.redko@huawei.com>**
