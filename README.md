@@ -68,4 +68,4 @@ This work is the result of a great collaboration—thanks to all my amazing co-a
 
 If you have questions, collaboration ideas, or just want to discuss TSFMs, feel free to reach out:
 
-📬 **shifeng.xie@telecom-paris.fr** **"ievgen.redko@huawei.com>**
+📬 **shifeng.xie@telecom-paris.fr** **ievgen.redko@huawei.com>**
