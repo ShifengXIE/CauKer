@@ -1,7 +1,5 @@
 # CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data Only
 
-![ICML 2025 Spotlight](https://img.shields.io/badge/ICML%202025-Spotlight-blue)
-
 CauKer is a new synthetic data generation framework for pretraining classification Time Series Foundation Models (TSFMs) **without using any real data**.
 
 🚀 **Spotlight Presentation @ ICML 2025 FMSD Workshop**  
