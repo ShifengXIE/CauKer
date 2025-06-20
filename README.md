@@ -29,7 +29,7 @@ You can try CauKer directly in your browser via Google Colab:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/CauKer.git
+git clone https://github.com/ShifengXIE/CauKer.git
 cd CauKer
 
 # 2. Install dependencies
