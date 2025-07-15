@@ -13,11 +13,13 @@ Recent work in TSFMs has focused on training with large-scale real-world corpora
 - **Causally structured** (DAG-based propagation of Gaussian Process root nodes)
 
 Our method combines:
-- 🌱 Gaussian Process Kernel Composition
-- 🔗 Structural Causal Graphs
-- ⚙️ Rich activation and mean function libraries
+- Gaussian Process Kernel Composition
+- Structural Causal Graphs
+- Rich activation and mean function libraries
 
 With CauKer, we show that state-of-the-art classification models like **Mantis** and **MOMENT** can be pretrained entirely on synthetic data and still outperform or match real-data baselines in zero-shot classification tasks.
+
+A more efficient version and training code will be released soon.
 
 ---
 
@@ -43,7 +45,7 @@ python CauKer.py -N 200000 -L 512 -F 4 -P 6 -M 18 -O CauKer200K.arrow
 
 ## Example Use Case
 
-Once generated, the synthetic `.arrow` dataset can be used to pretrain your own TSFM (e.g., Mantis or MOMENT) and then evaluated in a zero-shot setting on UCR or UEA benchmarks.
+Once generated, the synthetic `.arrow` dataset can be used to pretrain your own TSFM (e.g., Mantis or MOMENT) and then evaluated in a zero-shot setting on UCR, UEA benchmarks.
 
 ---
 
