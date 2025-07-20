@@ -25,6 +25,8 @@ A more efficient version and training code will be released soon.
 
 ## Quick Start
 
+> **New:** We have also uploaded **CauKer_V2.py**, a faster and more secure version of the framework.
+
 You can try CauKer directly in your browser via Google Colab:
 
 👉 [**Open Tutorial in Colab**](https://colab.research.google.com/drive/1hvVsWMP4g3pv9bqFRsgBolVMFBNF4tQk?usp=sharing)
