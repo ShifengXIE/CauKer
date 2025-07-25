@@ -56,7 +56,7 @@ Once generated, the synthetic `.arrow` dataset can be used to pretrain your own 
 ```bibtex
 @inproceedings{cauker2025,
   title={CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data Only},
-  author={Xie, Shifeng and others},
+  author={Shifeng Xie, Vasilii Feofanov, Marius Alonso, Ambroise Odonnat, Jianfeng Zhang, Ievgen Redko},
   booktitle={ICML Workshop on Foundation Models for Structured Data (FMSD)},
   year={2025}
 }
