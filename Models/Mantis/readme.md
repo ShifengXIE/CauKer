@@ -25,7 +25,7 @@ After setting up the environment, Mantis can be trained in distributed mode with
 * `--master_port`: communication port for distributed training.
 * `DDPtrain.py`: the training script we provide, which supports multi-GPU training.
 
-### ⚙️ Configuration
+### Configuration
 
 * The model architecture is Mantis-8M.
 * Data preprocessing should follow the guidelines in the original Mantis paper (sequence length proportional to 32, with 512 as the default interpolation length).
