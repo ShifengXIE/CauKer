@@ -32,5 +32,16 @@ After setting up the environment, Mantis can be trained in distributed mode with
 * Hyperparameters (batch size, learning rate, optimizer, etc.) can be set in the training script or config files.
 
 
+### Citing Mantis 
 
+If you use Mantis in your work, please cite this technical report:
+
+```bibtex
+@article{feofanov2025mantis,
+  title={Mantis: Lightweight Calibrated Foundation Model for User-Friendly Time Series Classification},
+  author={Vasilii Feofanov and Songkang Wen and Marius Alonso and Romain Ilbert and Hongbo Guo and Malik Tiomoko and Lujia Pan and Jianfeng Zhang and Ievgen Redko},
+  journal={arXiv preprint arXiv:2502.15637},
+  year={2025},
+}
+```
 
