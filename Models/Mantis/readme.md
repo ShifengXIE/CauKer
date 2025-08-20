@@ -8,6 +8,7 @@
 >  
 > In this repository, we only provide additional training scripts and instructions to facilitate reproducible fine-tuning and pretraining of Mantis on CauKer synthetic data.  
 > Please refer to the [official Hugging Face model card](https://huggingface.co/paris-noah/Mantis-8M) and the [paper](https://arxiv.org/abs/2502.15637) for more details about the model itself.
+> We would also like to thank **Vasilii Feofanov** for his support.
 
 ### How to Use Our Training Code
 
