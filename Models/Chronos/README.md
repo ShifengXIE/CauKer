@@ -19,7 +19,7 @@
 
 ## CauKer MASE Results
 
-We pretrained Chronos models using CauKer-generated synthetic data consisting of **1M time series samples of length 512**, and compared their performance with models trained on the official Chronos training corpus under the same setting (200K updates). The results, reported as the arithmetic and geometric means of the division metrics, are summarized below.
+We pretrained Chronos models using CauKer-generated synthetic data consisting of **1M time series samples of length 512**, and compared their MASE performance on Chronos-zero-shot benchmark with models trained on the official Chronos training corpus under the same setting (200K updates). The results, reported as the arithmetic and geometric means of the division metrics, are summarized below.
 
 | Model         | Training Data | Mean  | Geometric Mean |
 | ------------- | ------------- | ----- | -------------- |
