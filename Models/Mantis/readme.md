@@ -10,6 +10,9 @@
 > Please refer to the [official Hugging Face model card](https://huggingface.co/paris-noah/Mantis-8M) and the [paper](https://arxiv.org/abs/2502.15637) for more details about the model itself.
 > We would also like to thank **Vasilii Feofanov** for his support.
 
+### Requirements
+> mantis-tsfm >= 0.2.0
+
 ### How to Use Our Training Code
 
 After setting up the environment, Mantis can be trained in distributed mode with PyTorch DDP using the following command:
