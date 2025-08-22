@@ -17,18 +17,18 @@ from mantis.architecture import Mantis8M
 from mantis.trainer import MantisTrainer
 
 
-def check_installed_version(package_name, threshold):
-    try:
-        installed_version = version(package_name)
-        if v.parse(installed_version) < v.parse(threshold):
-            raise RuntimeError(
-                f"{package_name} version {threshold} or higher required, "
-                f"but {installed_version} is installed."
-            )
-        else:
-            print(f"{package_name} {installed_version} is OK")
-    except PackageNotFoundError:
-        raise RuntimeError(f"{package_name} is not installed.")
+# def check_installed_version(package_name, threshold):
+#     try:
+#         installed_version = version(package_name)
+#         if v.parse(installed_version) < v.parse(threshold):
+#             raise RuntimeError(
+#                 f"{package_name} version {threshold} or higher required, "
+#                 f"but {installed_version} is installed."
+#             )
+#         else:
+#             print(f"{package_name} {installed_version} is OK")
+#     except PackageNotFoundError:
+#         raise RuntimeError(f"{package_name} is not installed.")
 
 
 def main(cauker_data_path, seed, file_name):
@@ -57,7 +57,7 @@ def main(cauker_data_path, seed, file_name):
     device = torch.device(f"cuda:{local_rank}" if torch.cuda.is_available() else "cpu")
 
     # ========= Check Version of mantis =========
-    check_installed_version(package_name="mantis", threshold="0.2.0")
+    # check_installed_version(package_name="mantis", threshold="0.2.0")
 
     # ========= Load Data =========
     dataset_arrow = ds.dataset(source=cauker_data_path, format="arrow")
@@ -77,7 +77,7 @@ def main(cauker_data_path, seed, file_name):
     # df_selected = table.to_pandas()  
 
     ts_list = df_selected["target"].to_list()
-    X_data = np.stack(ts_list, axis=0)
+    X_data = np.stack(ts_list, axis=0)[:, None, :]
 
     if rank == 0:
         print("Pretraining data dims: ", X_data.shape)
@@ -96,7 +96,7 @@ def main(cauker_data_path, seed, file_name):
         transf_dim_head=128,
         transf_dropout=0.1,
         device=device,
-        pre_training=False # when this argument is True, a projection head for contrastive learning is used at the forward step.
+        pre_training=True # when this argument is True, a projection head for contrastive learning is used at the forward step.
         # we found that without this projector the performance is comparable.
     )
 

@@ -22,7 +22,8 @@ After setting up the environment, Mantis can be trained in distributed mode with
     -m torch.distributed.run \
     --nproc_per_node=4 \
     --master_port=29503 \
-    DDPtrain.py
+    DDPtrain.py \
+    --cauker_data_path /path/CauKer.arrow
 ````
 
 * `--nproc_per_node=4`: number of GPUs to use (modify according to your setup).
