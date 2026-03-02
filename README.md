@@ -1,5 +1,7 @@
 # CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data Only
 
+> **🚨 NEW: 2 million CauKer dataset is now available on [Hugging Face](https://huggingface.co/datasets/paris-noah/CauKer2M)! 🚨**
+
 CauKer is a new synthetic data generation framework for pretraining classification Time Series Foundation Models (TSFMs) **without using any real data**.
 
 🚀 **Oral Presentation and Paper @ ICLR 2026**
@@ -27,8 +29,6 @@ A more efficient version and training code will be released soon.
 ---
 
 ## Quick Start
-
-> **🚨 NEW: 2 million CauKer dataset is now available on [Hugging Face](https://huggingface.co/datasets/paris-noah/CauKer2M)! 🚨**
 
 <!-- > **New:** We have also uploaded **CauKer_V2.py**, a faster but less secure version of the framework. -->
 
