@@ -5,7 +5,7 @@
 CauKer is a new synthetic data generation framework for pretraining classification Time Series Foundation Models (TSFMs) **without using any real data**.
 
 🚀 **Oral Presentation and Paper @ ICLR 2026**
-📅 April 23-27, 2025 | 📍 Rio de Janeiro
+📅 April 23-27, 2026 | 📍 Rio de Janeiro
 
 🚀 **Best Time Series Paper and Spotlight Presentation @ ICML 2025 FMSD Workshop**  
 📅 July 18, 2025 | 📍 Vancouver
